@@ -1,0 +1,15 @@
+# Exclude build artifacts
+*.yml linguist-detectable=false
+
+examples/site/** linguist-vendored
+src/** linguist-detectable
+* text=auto
+*.tsx linguist-detectable
+
+*.jpg binary
+examples/site/index.html linguist-vendored
+*.sh text eol=lf
+*.min.js linguist-generated
+*.min.css linguist-generated
+
+dist/* linguist-vendored
